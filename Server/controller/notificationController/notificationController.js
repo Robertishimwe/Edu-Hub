@@ -8,7 +8,7 @@ const publicVapidKey="BGeoSSpQqOL9hrcdlZhZNLWwcBH88pWMn9leXJaRbDVHzz8FSuBk15rrgo
 const privateVapidKey="y8HvY4beDx3TOnJjmqDuc8sbo7JAyVXAgFulJ1l2ucM";
 const subject ="notification"
 
-webpush.setVapidDetails(subject,publicVapidKey,privateVapidKey);
+webpush.setVapidDetails("mailto: <admin@admin.com>",publicVapidKey,privateVapidKey);
 
 
 const createNotification = async (req, res) => {
