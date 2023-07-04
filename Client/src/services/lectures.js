@@ -3,7 +3,7 @@ import { getAuthHeader } from './config'
 
 import { baseURL as coursesURL } from './courses'
 
-const baseURL = '/lectures'
+const baseURL = 'https://edurw.cyclic.app/lectures'
 
 const getLecturesURL = (courseId) => {
   return `${coursesURL}/${courseId}${baseURL}`
