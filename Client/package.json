@@ -13,7 +13,7 @@
     "@types/react": "^16.9.50",
     "@types/react-dom": "^16.9.8",
     "ant-design-pro": "^2.3.2",
-    "antd": "^5.6.4",
+    "antd": "^3.26.20",
     "axios": "^0.21.1",
     "luxon": "^1.26.0",
     "postcss": "^8.4.24",
