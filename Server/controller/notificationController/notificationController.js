@@ -6,8 +6,9 @@ const mongoose = require('mongoose')
 
 const publicVapidKey="BGeoSSpQqOL9hrcdlZhZNLWwcBH88pWMn9leXJaRbDVHzz8FSuBk15rrgopX3XfgEqic1";
 const privateVapidKey="y8HvY4beDx3TOnJjmqDuc8sbo7JAyVXAgFulJ1l2ucM";
+const subject ="notification"
 
-webpush.setVapidDetails("",publicVapidKey,privateVapidKey);
+webpush.setVapidDetails(subject,publicVapidKey,privateVapidKey);
 
 
 const createNotification = async (req, res) => {
