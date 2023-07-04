@@ -4,8 +4,8 @@ const webpush = require("web-push");
 const mongoose = require('mongoose')
 
 
-const publicVapidKey="";
-const privateVapidKey="";
+const publicVapidKey="BGeoSSpQqOL9hrcdlZhZNLWwcBH88pWMn9leXJaRbDVHzz8FSuBk15rrgopX3XfgEqic1";
+const privateVapidKey="y8HvY4beDx3TOnJjmqDuc8sbo7JAyVXAgFulJ1l2ucM";
 
 webpush.setVapidDetails("",publicVapidKey,privateVapidKey);
 
