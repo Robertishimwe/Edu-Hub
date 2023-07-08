@@ -25,16 +25,18 @@ const achievementsRouter = require('./routes/achievementsRouter')
 
 const auth = require('./middleware/auth')
 
-// const fileUpload = require('express-fileupload')
+const fileUpload = require('express-fileupload')
 
-// app.use(
-//   fileUpload({
-//     debug: true,
-//     createParentPath: true,
-//     safeFileNames: true,
-//     preserveExtension: 4
-//   })
-// )
+app.use(
+  fileUpload(
+  //   {
+  //   debug: true,
+  //   createParentPath: true,
+  //   safeFileNames: true,
+  //   preserveExtension: 4
+  // }
+  )
+)
 
 mongoose
   .connect(process.env.MONGODB_ATLAS_URI, {
